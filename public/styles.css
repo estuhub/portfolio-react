@@ -113,3 +113,20 @@ nav ul li {
   padding: 0.3rem 0;
 }
 /* Home end*/
+
+/* About */
+#about {
+  background-color: var(--bg-color);
+  padding: 1rem 6rem;
+}
+
+#about h2 {
+  margin-bottom: var(--bottom-margin);
+  text-align: center;
+}
+
+#about p {
+  line-height: var(--line-height);
+  padding: 0.4rem;
+}
+/* About end */
