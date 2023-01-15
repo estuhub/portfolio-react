@@ -9,19 +9,19 @@ class Projects extends React.Component{
             <h2 className="projects-title">Some of my Recent Projects</h2>
             <div className="projects-container">
                 <div className="project-container project-card">
-                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d2abd662597191.5a9589b09ddf5.jpg" alt="Google Screenshot" class="project-pic" />
+                    <img src="./images/Google-Search.png" alt="Google Screenshot" class="project-pic" />
                     <h3 className="project-title">Google Search Clone</h3>
                     <p className="project-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!</p>
                     <a href="https://github.com/" target="_blank" class="project-link">Check it out!</a>
                 </div>
                 <div className="project-container project-card">
-                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d2abd662597191.5a9589b09ddf5.jpg" alt="Airbnb Screenshot" class="project-pic" />
+                    <img src="./images/Airbnb-LoginSignup.png" alt="Airbnb Screenshot" class="project-pic" />
                     <h3 className="project-title">Airbnb Clone</h3>
                     <p className="project-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!</p>
                     <a href="https://github.com/" target="_blank" class="project-link">Check it out!</a>
                 </div>
                 <div className="project-container project-card">
-                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d2abd662597191.5a9589b09ddf5.jpg" alt="FMT Screenshot" class="project-pic" />
+                    <img src="./images/FMT-Location.png" alt="FMT Screenshot" class="project-pic" />
                     <h3 className="project-title">Follow My Trail</h3>
                     <p className="project-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!</p>
                     <a href="https://github.com/" target="_blank" class="project-link">Check it out!</a>

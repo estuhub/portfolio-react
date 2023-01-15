@@ -159,11 +159,11 @@ nav ul li {
   text-align: center;
 }
 
-/* .skills-card {
+.skills-card {
   display: flex;
   align-items: flex-start;
   text-align: left;
-} */
+}
 
 .skill-header {
   margin-bottom: 1rem;
@@ -171,6 +171,11 @@ nav ul li {
 
 .skill-icon {
   padding: 10%;
+}
+
+h4 {
+  margin-bottom: var(--bottom-margin);
+  margin-top: var(--bottom-margin);
 }
 /* Skills end */
 
@@ -184,6 +189,7 @@ nav ul li {
 .project-pic {
   width: 65%;
   height: 60%;
+  margin-bottom: 1rem;
 }
 
 .projects-container {
@@ -247,26 +253,20 @@ nav ul li {
   line-height: 2.7em;
   font-weight: var(--bold-font);
   color: var(--primary-color);
-}
-
-.contact-form-container textarea {
-  min-height: 6.25rem;
-  font-size: 14px;
-}
+} 
 
 .contact-form-container .input-field {
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 0.5rem;
   border-radius: 5px;
   border: none;
   border: 2px outset var(--primary-color);
+  font-family: var(--font-family) !important;
   font-size: 0.875rem;
   outline: none;
 }
 
 .input-field::placeholder {
-  padding: 0.5rem;
   color: var(--primary-color);
 }
 
