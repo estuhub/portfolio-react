@@ -15,6 +15,8 @@ class Skills extends React.Component{
                     <div>
                         <h3 className="skill-header">Web Development</h3>
                         <p className="skill-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, maxime doloribus dolorem eius eum animi reiciendis autem omnis magni tempora aspernatur praesentium consequuntur consectetur at doloremque quas iste illum voluptatum.</p>
+                        <h4 className="skill-place">Companies I worked with</h4>
+                        <img src="./favicon.ico" alt="logo" style={{width: '40px'}} />
                     </div>
                 </div>
                 <div className="skills-card">
@@ -24,6 +26,11 @@ class Skills extends React.Component{
                     <div>
                         <h3 className="skill-header">Data Analytics</h3>
                         <p className="skill-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, maxime doloribus dolorem eius eum animi reiciendis autem omnis magni tempora aspernatur praesentium consequuntur consectetur at doloremque quas iste illum voluptatum.</p>
+                        <h4 className="skill-place">Companies I worked with</h4>
+                        <img src="./favicon.ico" alt="logo" style={{width: '40px'}} />
+                        <img src="./favicon.ico" alt="logo" style={{width: '40px'}} />
+                        <img src="./favicon.ico" alt="logo" style={{width: '40px'}} />
+                        <img src="./favicon.ico" alt="logo" style={{width: '40px'}} />
                     </div>
                 </div>
                 <div className="skills-card">
@@ -33,6 +40,10 @@ class Skills extends React.Component{
                     <div>
                         <h3 className="skill-header">Hospitality</h3>
                         <p className="skill-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, maxime doloribus dolorem eius eum animi reiciendis autem omnis magni tempora aspernatur praesentium consequuntur consectetur at doloremque quas iste illum voluptatum.</p>
+                        <h4 className="skill-place">Companies I worked with</h4>
+                        <img src="./favicon.ico" alt="logo" style={{width: '40px'}} />
+                        <img src="./favicon.ico" alt="logo" style={{width: '40px'}} />
+                        <img src="./favicon.ico" alt="logo" style={{width: '40px'}} />
                     </div>
                 </div>
             </div>
