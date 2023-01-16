@@ -184,6 +184,7 @@ nav ul li {
   display: flex;
   align-items: flex-start;
   text-align: center;
+  height: 14rem;
   width: 20rem;
 }
 
@@ -196,8 +197,8 @@ nav ul li {
 }
 
 h4 {
-  margin-bottom: var(--bottom-margin);
-  margin-top: var(--bottom-margin);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .skill-logo {
@@ -217,8 +218,8 @@ h4 {
 /* Projects */
 #projects {
   background-color: var(--bg-color);
-  padding: 32px 0;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
+  padding: 1rem 6rem;
 }
 
 .project-pic {
@@ -267,8 +268,9 @@ h4 {
 
 /* Contact */
 #contact {
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  padding: 1rem 6rem;
 }
 
 #contact h2 {
