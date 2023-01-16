@@ -202,10 +202,13 @@ h4 {
 
 .skill-logo {
   width: 20%;
+  /* keep ratios */
   aspect-ratio: 16 / 9;
+  /* stop from streching */
   object-fit: contain;
+  /* take background off */
   mix-blend-mode: color-burn;
-  /* turn logos in b&w */
+  /* turn in b&w */
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
