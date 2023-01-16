@@ -162,7 +162,8 @@ nav ul li {
 .skills-card {
   display: flex;
   align-items: flex-start;
-  text-align: left;
+  text-align: center;
+  width: 20rem;
 }
 
 .skill-header {
@@ -176,6 +177,16 @@ nav ul li {
 h4 {
   margin-bottom: var(--bottom-margin);
   margin-top: var(--bottom-margin);
+}
+
+.skill-logo {
+  width: 20%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+  /* turn logos in b&w */
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 /* Skills end */
 
