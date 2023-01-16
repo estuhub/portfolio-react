@@ -90,29 +90,50 @@ nav ul li {
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
-  max-width: 68.75rem;
   margin: auto;
-}
-
-#home img {
-  height: 37.5rem;
-  width: 37.5rem;
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://iso.500px.com/wp-content/uploads/2020/04/stock-photo-self-portraits-1013620750.jpg");
+  /* Set a specific height */
+  height: 100vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .bio {
-  width: 25rem;
   padding: 0.625rem;
-  /* border-radius: 6px;
-  box-shadow: 0px 2px 15px 2px var(--primary-shadow); */
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
-.bio h1 {
+.bio-name {
+  font-size: 90px;
   margin-bottom: var(--bottom-margin);
 }
 
 .bio p {
   line-height: var(--line-height);
   padding: 0.3rem 0;
+}
+
+.bio-btn {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: var(--bold-font);
+  transition: var(--transition);
+}
+
+.bio-btn:hover {
+  background-color: var(--primary-color);
+  cursor: pointer;
 }
 /* Home end*/
 
