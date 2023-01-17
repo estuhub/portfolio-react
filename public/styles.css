@@ -56,7 +56,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 3.5rem;
+  padding: 0.5rem 3.5rem;
   background-color: var(--bg-color);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
@@ -94,7 +94,7 @@ nav ul li {
   gap: 2.5rem;
   margin: auto;
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://iso.500px.com/wp-content/uploads/2020/04/stock-photo-self-portraits-1013620750.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dr28hft1z/image/upload/v1673849770/portfolio-react/pic-ester_mgs51p.jpg");
   /* Set a specific height */
   height: 100vh;
   /* Position and center the image to scale nicely on all screens */
@@ -115,8 +115,9 @@ nav ul li {
 }
 
 .bio-name {
-  font-size: 90px;
+  font-size: 120px;
   margin-bottom: var(--bottom-margin);
+  font-family: 'Caveat', cursive;
 }
 
 .bio p {
