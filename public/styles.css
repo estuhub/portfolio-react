@@ -55,14 +55,16 @@ nav {
   z-index: 1;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: 1.5rem 3.5rem;
   background-color: var(--bg-color);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-nav h1 {
-  color: var(--primary-color);
+.nav-logo {
+  width: 12%;
+  /* take background off */
+  mix-blend-mode: color-burn;
 }
 
 nav a {
