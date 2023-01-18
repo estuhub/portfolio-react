@@ -51,6 +51,7 @@ h2 {
   font-family: 'Caveat', cursive;
   font-size: 40px;
   margin-top: 2.5rem;
+  margin-bottom: var(--bottom-margin);
 }
 /* CSS Resets end */
 
@@ -154,10 +155,6 @@ nav ul li {
   padding: var(--padding);
 }
 
-#about h2 {
-  margin-bottom: var(--bottom-margin);
-}
-
 #about p {
   line-height: var(--line-height);
   padding: 0.4rem 0rem;
@@ -185,10 +182,6 @@ nav ul li {
   text-align: start;
   height: 20rem;
   width: 26rem;
-}
-
-.skills-header {
-  margin-bottom: var(--bottom-margin);
 }
 
 .skill-header {
@@ -222,7 +215,6 @@ nav ul li {
   margin: 10px 0;
   border-radius: 5px;
   font-size: 1rem;
-  /* font-weight: var(--bold-font); */
   transition: var(--transition);
   width: 30%;
 }
@@ -286,14 +278,8 @@ nav ul li {
 
 /* Contact */
 #contact {
-  margin-top: 2.5rem;
   margin-bottom: 2.5rem;
   padding: var(--padding);
-}
-
-#contact h2 {
-  text-align: center;
-  margin-bottom: var(--bottom-margin-2);
 }
 
 .contact-form-container {
