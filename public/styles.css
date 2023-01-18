@@ -166,48 +166,42 @@ nav ul li {
 
 /* Skills */
 #skills {
-  margin-top: 2.5rem;
-  padding: 1rem 6rem;
-  text-align: center;
-}
-
-#skills h2 {
-  margin-bottom: var(--bottom-margin);
-  text-align: center;
   padding: var(--padding);
 }
 
 .skills-wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 2.5rem;
-  margin: auto;
-  margin-bottom: var(--bottom-margin);
-  max-width: 68.75rem;
-  padding: 0.625rem;
+  justify-content: space-between;
   text-align: center;
+  gap: 2.5rem;
+  margin-bottom: var(--bottom-margin);
+  padding: 0.5em 0em;
 }
 
 .skills-card {
   display: flex;
   align-items: flex-start;
-  text-align: center;
-  height: 14rem;
-  width: 20rem;
+  text-align: start;
+  height: 20rem;
+  width: 26rem;
+}
+
+.skills-header {
+  margin-bottom: var(--bottom-margin);
 }
 
 .skill-header {
+  color: var(--primary-color);
   margin-bottom: 1rem;
 }
 
-.skill-icon {
-  padding: 10%;
+.skill-text {
+  line-height: var(--line-height);
 }
 
-h4 {
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+.skill-place {
+  margin: 1rem 0;
 }
 
 .skill-logo {
@@ -227,7 +221,6 @@ h4 {
 /* Projects */
 #projects {
   background-color: var(--bg-color);
-  margin-top: 2.5rem;
   padding: var(--padding);
 }
 
