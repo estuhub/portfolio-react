@@ -39,7 +39,7 @@ class Skills extends React.Component{
                     </div>
                 </div>
             </div>
-            <p className="skills-btn"><FaDownload /> Download Resume</p>
+            <a href="./files/CV_EsterLin.pdf" className="skills-btn" target="_blank"><FaDownload /> Download Resume</a>
         </section>
     )
   }
