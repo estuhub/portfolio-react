@@ -1,5 +1,6 @@
 // import react
 import React from 'react';
+import { FaDownload } from "react-icons/fa";
 
 // create component
 class Skills extends React.Component{
@@ -38,6 +39,7 @@ class Skills extends React.Component{
                     </div>
                 </div>
             </div>
+            <p className="skills-btn"><FaDownload /> Download Resume</p>
         </section>
     )
   }

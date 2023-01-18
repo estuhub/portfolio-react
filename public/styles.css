@@ -216,6 +216,22 @@ nav ul li {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
+
+.skills-btn {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 1rem;
+  /* font-weight: var(--bold-font); */
+  transition: var(--transition);
+  width: 30%;
+}
+
+.skills-btn:hover {
+  background-color: var(--primary-color);
+  color: #fcfcfc;
+  cursor: pointer;
+}
 /* Skills end */
 
 /* Projects */
