@@ -45,6 +45,11 @@ a:hover {
 body {
   font-family: var(--font-family);
 }
+
+h2 {
+  font-family: 'Caveat', cursive;
+  font-size: 40px;
+}
 /* CSS Resets end */
 
 /* Nav Bar */
@@ -111,7 +116,7 @@ nav ul li {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: var(--bg-color);
 }
 
 .bio-name {
@@ -143,19 +148,18 @@ nav ul li {
 /* About */
 #about {
   background-color: var(--bg-color);
-  margin-top: 2.5rem;
+  gap: 2.5rem;
+  margin: auto;
   padding: 1rem 6rem;
 }
 
 #about h2 {
   margin-bottom: var(--bottom-margin);
-  text-align: center;
 }
 
 #about p {
   line-height: var(--line-height);
-  padding: 0.4rem;
-  text-align: center;
+  padding: 0.4rem 0rem;
 }
 /* About end */
 
