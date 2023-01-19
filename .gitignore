@@ -7,6 +7,8 @@
 
 # testing
 /coverage
+/public/images
+/src/pages/test.html
 
 # production
 /build
