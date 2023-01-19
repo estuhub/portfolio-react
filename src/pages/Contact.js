@@ -6,8 +6,9 @@ class Contact extends React.Component{
   render() {
     return (
         <section id="contact">
-            <h2>Get In Touch With Me</h2>
-            <div className="contact-form-container contact-form">
+            <div>
+                <h2 className="header">Get In Touch With Me</h2>
+            <div className="contact-form-container">
                 <form>
                     <div className="form-control">
                         <label>Name</label>
@@ -22,9 +23,10 @@ class Contact extends React.Component{
                         <textarea rows="10" name="message" placeholder="Enter Your Message" className="input-field" required ></textarea>
                     </div>
                     <div>
-                        <button class="submit-btn">Submit</button>
+                        <button className="submit-btn">Submit</button>
                     </div>
                 </form>
+            </div>
             </div>
         </section>
     )

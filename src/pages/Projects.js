@@ -6,7 +6,7 @@ class Projects extends React.Component{
   render() {
     return (
         <section id="projects">
-            <h2 className="projects-title">Some of my Recent Projects</h2>
+            <h2 className="header">Some of my Recent Projects</h2>
             <div className="projects-container">
                 <div className="project-container project-card">
                     <img src="https://res.cloudinary.com/dr28hft1z/image/upload/v1673829235/portfolio-react/Google-Search_qqxnlp.png" alt="Google Screenshot" class="project-pic" />
