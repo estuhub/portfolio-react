@@ -68,6 +68,11 @@ nav {
   padding: var(--padding);
   background-color: var(--bg-color);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.navigation {
+  display: none;
 }
 
 .nav-logo {
@@ -102,7 +107,7 @@ nav ul li {
 .burguer-bar1, .burguer-bar2, .burguer-bar3 {
   width: 30px;
   height: 1px;
-  background-color: #333;
+  background-color: var(--primary-color);
   margin: 5px auto;
   transition: 0.4s;
 }

@@ -1,27 +1,25 @@
 // import react
 import React from 'react';
-import Burguer from './Burguer'
+import { useState } from 'react'
 
-// create component
-class Nav extends React.Component{
-  render() {
+const Nav = () => {
+    const [navOpen, setNavOpen] = useState(false);
     return (
         <nav>
-            {/* <img src="./images/logo-ester.png" alt="logo" className="nav-logo" /> */}
-            <Burguer />
-            <ul className="navigation">
+            <div className="burguer-container" onClick={() => setNavOpen(!navOpen)}>
+                <div className={navOpen ? "change burguer-bar1" : "burguer-bar1"}></div>
+                <div className={navOpen ? "change burguer-bar2" : "burguer-bar2"}></div>
+                <div className={navOpen ? "change burguer-bar3" : "burguer-bar3"}></div>
+            </div>
+            <ul className={navOpen ? "" : "navigation"}>
                 <li><a href="#home" className="nav-link">Home</a></li>
                 <li><a href="#about" className="nav-link">About</a></li>
                 <li><a href="#skills" className="nav-link">Skills</a></li>
                 <li><a href="#projects" className="nav-link">Projects</a></li>
                 <li><a href="#contact" className="nav-link">Contact</a></li>
             </ul>
-            {/* <button class="burger-menu" id="burger-menu">
-                <ion-icon class="bars" name="menu-outline"></ion-icon>
-            </button> */}
         </nav>
     )
-  }
 }
 
 // export react
