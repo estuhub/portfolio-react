@@ -97,6 +97,18 @@ nav ul {
 
 nav ul li {
   font-weight: var(--bold-font);
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
 }
 
 .burguer-container {
@@ -369,3 +381,38 @@ nav ul li {
   cursor: pointer;
 }
 /* Contact end */
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  /* Nav Bar */
+  nav {
+    display: grid;
+    justify-content: center;
+  }
+
+  nav ul {
+    display: grid;
+    justify-items: center;
+    gap: 1.9rem;
+    margin-top: 20px;
+  }
+
+  /* Skills */
+  .skills-wrapper {
+    display: grid;
+  }
+
+  .skills-card {
+    width: 100%;
+  }
+
+  /* Projects */
+  .projects-container {
+    display: block;
+  }
+
+  .project-container {
+    width: 100%;
+  }
+}
+/* Mobile end */
