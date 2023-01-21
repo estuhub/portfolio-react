@@ -9,10 +9,11 @@ class Contact extends React.Component{
             <div>
                 <h2 className="header">Get In Touch With Me</h2>
             <div className="contact-form-container">
-                <form>
+                <form name="contact" method="POST">
+                <input type="hidden" name="form-name" value="contact" />
                     <div className="form-control">
                         <label>Name</label>
-                        <input type="Text" name="sender-name" placeholder="Enter Your Name" className="input-field" required/>
+                        <input type="text" name="sender-name" placeholder="Enter Your Name" className="input-field" required/>
                     </div>
                     <div className="form-control">
                         <label>Email</label>
