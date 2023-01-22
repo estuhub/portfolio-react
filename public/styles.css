@@ -428,6 +428,10 @@ nav ul li {
     width: 100%;
   }
 
+  .skill-logo {
+    width: 40%;
+  }
+
   /* Projects */
   .projects-container {
     flex-direction: column;
