@@ -274,52 +274,69 @@ nav ul li {
   padding: var(--padding);
 }
 
-.project-pic {
-  width: 65%;
-  height: 60%;
-  margin-bottom: 1rem;
-}
-
 .projects-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 2.5rem;
+  width: 100%;
 }
 
-.projects-title {
-  text-align: center;
-  margin-bottom: 1rem;
+.project-1 {
+  background-image: url(https://res.cloudinary.com/dr28hft1z/image/upload/v1674379811/portfolio-react/desk-google_tjwhvn.jpg);
+}
+
+.project-2 {
+  background-image: url(https://res.cloudinary.com/dr28hft1z/image/upload/v1674379810/portfolio-react/desk-airbnb_nxi7rl.jpg);
+}
+
+.project-3 {
+  background-image: url(https://res.cloudinary.com/dr28hft1z/image/upload/v1674379810/portfolio-react/desk-fmt_s6zzpp.jpg);
 }
 
 .project-container {
-  text-align: center;
-  width: 21.875rem;
-  padding: 1rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  height: 21.875rem;
+  position: relative;
+  width: 100%;
 }
 
-.project-container p {
-  padding: 0.4rem;
+.project-overlay {
+  /* display */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* style */
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  bottom: 0;
+  color: #f1f1f1;
+  height: 100%;
+  opacity: 0;
+  padding: 1.9rem;
+  position: absolute;
+  transition: .5s ease;
+  width: 100%;
+}
+
+.project-container:hover .project-overlay {
+  opacity: 1;
 }
 
 .project-title {
-  margin-bottom: var(--bottom-margin);
-}
-
-.project-details {
-  margin-bottom: var(--bottom-margin);
-}
-
-.project-card {
-  background-color: #fff;
-  border-radius: 11px;
-  box-shadow: 0 3px 10px var(--primary-shadow);
-  padding: 20px;
-  margin: 10px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  padding: 1rem;
 }
 /* Projects end */
 
 /* Contact */
-
 #contact {
   display: flex;
   align-items: center;

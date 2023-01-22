@@ -8,23 +8,29 @@ class Projects extends React.Component{
         <section id="projects">
             <h2 className="header">Some of my Recent Projects</h2>
             <div className="projects-container">
-                <div className="project-container project-card">
-                    <img src="https://res.cloudinary.com/dr28hft1z/image/upload/v1673829235/portfolio-react/Google-Search_qqxnlp.png" alt="Google Screenshot" class="project-pic" />
-                    <h3 className="project-title">Google Search Clone</h3>
-                    <p className="project-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!</p>
-                    <a href="https://github.com/" class="project-link">Check it out!</a>
+                <div className="project-container project-1">
+                    <a href="https://github.com/estuhub/google-search-react" target="_blank" rel="noreferrer" class="project-link">
+                        <div className="project-overlay">
+                            <h3 className="project-title">Google Search Clone</h3>
+                            <p className="project-details">React - JSX - CSS - Express.js - Node.js - API - Axios - MongoDB</p>
+                        </div>
+                    </a>
                 </div>
-                <div className="project-container project-card">
-                    <img src="https://res.cloudinary.com/dr28hft1z/image/upload/v1673829234/portfolio-react/Airbnb-LoginSignup_fs5s2x.png" alt="Airbnb Screenshot" class="project-pic" />
-                    <h3 className="project-title">Airbnb Clone</h3>
-                    <p className="project-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!</p>
-                    <a href="https://github.com/" class="project-link">Check it out!</a>
+                <div className="project-container project-2">
+                    <a href="https://github.com/estuhub/airbnb-mvc" target="_blank" rel="noreferrer" class="project-link">
+                        <div className="project-overlay">
+                            <h3 className="project-title">Airbnb Clone</h3>
+                            <p className="project-details">MVC - HTML - CSS - JavaScript - BootStrap - Express.js - Node.js - MongoDB - Passport</p>
+                        </div>
+                    </a>
                 </div>
-                <div className="project-container project-card">
-                    <img src="https://res.cloudinary.com/dr28hft1z/image/upload/v1673829235/portfolio-react/FMT-Location_sqazko.png" alt="FMT Screenshot" class="project-pic" />
-                    <h3 className="project-title">Follow My Trail</h3>
-                    <p className="project-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ratione vel inventore labore commodi modi quos culpa aut saepe! Alias!</p>
-                    <a href="https://github.com/" class="project-link">Check it out!</a>
+                <div className="project-container project-3">
+                    <a href="https://github.com/estuhub/follow-my-trail-react" target="_blank" rel="noreferrer" class="project-link">
+                        <div className="project-overlay">
+                            <h3 className="project-title">Follow My Trail</h3>
+                            <p className="project-details">React - JSX - CSS - BootStrap - Node.js - GoogleMaps API - Axios - MongoDB</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </section>
