@@ -6,6 +6,7 @@ const Nav = () => {
     const [navOpen, setNavOpen] = useState(false);
     return (
         <nav>
+            <p>I am Ester</p>
             <div className="burguer-container" onClick={() => setNavOpen(!navOpen)}>
                 <div className={navOpen ? "change burguer-bar1" : "burguer-bar1"}></div>
                 <div className={navOpen ? "change burguer-bar2" : "burguer-bar2"}></div>

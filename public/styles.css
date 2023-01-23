@@ -75,13 +75,7 @@ nav {
   display: none;
 }
 
-.nav-logo {
-  width: 12%;
-  /* take background off */
-  mix-blend-mode: color-burn;
-}
-
-nav a {
+nav {
   color: var(--primary-color);
   transition: var(--transition);
 }
@@ -95,7 +89,7 @@ nav ul {
   gap: 1.9rem;
 }
 
-nav ul li {
+nav ul li, nav p {
   font-weight: var(--bold-font);
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
@@ -449,7 +443,7 @@ nav ul li {
     display: none;
   }
 
-  nav ul {
+  nav, nav ul {
     display: grid;
     justify-items: center;
     gap: 1.9rem;
