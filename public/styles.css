@@ -173,19 +173,22 @@ nav ul li {
 
 .bio p {
   line-height: var(--line-height);
-  padding: 0.3rem 0;
+  padding: 1rem 0;
 }
 
-.bio-btn {
+.bio-text {
+  color: var(--bg-color);
   padding: 10px;
   margin: 10px 0;
   border-radius: 5px;
   font-size: 1rem;
   font-weight: var(--bold-font);
   transition: var(--transition);
+  line-height: var(--line-height);
 }
 
-.bio-btn:hover {
+.bio-text:hover {
+  color: var(--bg-color);
   background-color: var(--primary-color);
   cursor: pointer;
 }
