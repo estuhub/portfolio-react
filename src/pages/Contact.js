@@ -13,15 +13,15 @@ class Contact extends React.Component{
                 <input type="hidden" name="form-name" value="contact" />
                     <div className="form-control">
                         <label>Name</label>
-                        <input type="text" name="sender-name" placeholder="Enter Your Name" className="input-field" required/>
+                        <input type="text" name="sender-name" placeholder="Jane Doe" className="input-field" required/>
                     </div>
                     <div className="form-control">
                         <label>Email</label>
-                        <input type="email" name="sender-email" placeholder="Enter Your Email" className="input-field" required />
+                        <input type="email" name="sender-email" placeholder="example@gmail.com" className="input-field" required />
                     </div>
                     <div className="form-control">
                         <label>Message</label>
-                        <textarea rows="10" name="message" placeholder="Enter Your Message" className="input-field" required ></textarea>
+                        <textarea rows="10" name="message" placeholder="Hi there!" className="input-field" required ></textarea>
                     </div>
                     <div>
                         <button className="submit-btn">Submit</button>
