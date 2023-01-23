@@ -459,8 +459,8 @@ nav ul li, nav p {
     width: 100%;
   }
 
-  .skill-logo {
-    width: 40%;
+  .skill-place, .skill-logo {
+    display: none;
   }
 
   /* Projects */
