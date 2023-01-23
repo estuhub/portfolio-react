@@ -12,11 +12,11 @@ const Nav = () => {
                 <div className={navOpen ? "change burguer-bar3" : "burguer-bar3"}></div>
             </div>
             <ul className={navOpen ? "" : "navigation"}>
-                <li><a href="#home" className="nav-link">Home</a></li>
-                <li><a href="#about" className="nav-link">About</a></li>
-                <li><a href="#skills" className="nav-link">Skills</a></li>
-                <li><a href="#projects" className="nav-link">Projects</a></li>
-                <li><a href="#contact" className="nav-link">Contact</a></li>
+                <li><a href="#home" className="nav-link" onClick={() => setNavOpen(!navOpen)}>Home</a></li>
+                <li><a href="#about" className="nav-link" onClick={() => setNavOpen(!navOpen)}>About</a></li>
+                <li><a href="#skills" className="nav-link" onClick={() => setNavOpen(!navOpen)}>Skills</a></li>
+                <li><a href="#projects" className="nav-link" onClick={() => setNavOpen(!navOpen)}>Projects</a></li>
+                <li><a href="#contact" className="nav-link" onClick={() => setNavOpen(!navOpen)}>Contact</a></li>
             </ul>
         </nav>
     )

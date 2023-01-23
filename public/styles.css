@@ -71,7 +71,7 @@ nav {
   overflow: hidden;
 }
 
-.navigation {
+.burguer-bar1, .burguer-bar2, .burguer-bar3 {
   display: none;
 }
 
@@ -439,6 +439,14 @@ nav ul li {
   nav {
     display: grid;
     justify-content: center;
+  }
+
+  .burguer-bar1, .burguer-bar2, .burguer-bar3 {
+    display: flex;
+  }
+
+  .navigation {
+    display: none;
   }
 
   nav ul {
