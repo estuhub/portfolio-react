@@ -399,6 +399,32 @@ nav ul li {
 }
 /* Contact end */
 
+/* Footer */
+#footer {
+  padding: var(--padding);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.footer-link {
+  display: block;
+  padding: 0.5rem;
+  color: var(--primary-shadow);
+  transition: background-color 0.1s ease-in-out;
+}
+
+.copyright {
+  font-size: 12px;
+}
+/* Footer end */
+
 /* Mobile */
 @media only screen and (max-width: 600px) {
   /* CSS Resets */
