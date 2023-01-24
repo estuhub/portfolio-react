@@ -93,7 +93,7 @@ nav ul {
   gap: 1.9rem;
 }
 
-nav ul li, nav p {
+nav a {
   font-weight: var(--bold-font);
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
@@ -171,7 +171,7 @@ nav ul li, nav p {
 
 .bio p {
   line-height: var(--line-height);
-  padding: 1rem 0;
+  padding-bottom: 1rem;
 }
 
 .bio-text {
@@ -429,7 +429,7 @@ nav ul li, nav p {
 /* Mobile */
 @media only screen and (max-width: 600px) {
   /* CSS Resets */
-  #home, #about, #skills, #projects, #contact {
+  nav, #home, #about, #skills, #projects, #contact, #footer {
     padding: 0.5rem 2.5rem;
   }
 
@@ -459,6 +459,11 @@ nav ul li, nav p {
     align-items: flex-end;
     gap: 1.9rem;
     margin: 20px 0;
+  }
+
+  /* Home */
+  .bio-name {
+    font-size: 70px;
   }
 
   /* Skills */

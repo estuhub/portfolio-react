@@ -7,8 +7,8 @@ class About extends React.Component{
     return (
         <section id="home">
             <div className="bio">
-                <h1 className="bio-name">I am Ester</h1>
-                <p className="bio-title">And I'm a Web Developer</p>
+                <h1 className="bio-name">Hi, I'm Ester</h1>
+                <p className="bio-title">Web Developer</p>
                 <a className="bio-text" href="#contact">Contact me</a>
             </div>
         </section>
