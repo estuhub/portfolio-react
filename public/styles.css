@@ -65,7 +65,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--padding);
+  padding: 1rem 2rem;
   background-color: var(--bg-color);
   overflow: hidden;
 }
@@ -132,22 +132,6 @@ nav a {
 .change.burguer-bar3 {
   bottom: 2.35em;
   transform: translateY(-6px) rotate(-45deg);
-}
-
-.resume {
-  background-color: var(--primary-color);
-  border-radius: 5px;
-  color: #fcfcfc;
-  font-size: 1rem;
-  margin: 10px 0;
-  padding: 10px;
-  width: 30%;
-}
-
-.resume:hover {
-  background-color: var(--secondary-color);
-  border-bottom: none;
-  color: white;
 }
 /* Nav Bar end */
 
@@ -402,17 +386,30 @@ nav a {
 /* Contact end */
 
 /* Footer */
-#footer {
-  padding: var(--padding);
+.copyright {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  justify-items: center;
   align-items: center;
+  padding: var(--padding);
+  font-size: 12px;
 }
 
 .footer-list {
   display: flex;
-  justify-content: flex-end;
-  list-style: none;
+  flex-direction: column;
+  position: fixed;
+  left: 1%;
+  bottom: 0%;
+  
+}
+
+.footer-list::after {
+  background-color: var(--primary-shadow);
+  content: "";
+  display: block;
+  height: 90px;
+  margin: 0 auto;
+  width: 1px;
 }
 
 .footer-link {
@@ -421,17 +418,13 @@ nav a {
   color: var(--primary-shadow);
   transition: background-color 0.1s ease-in-out;
 }
-
-.copyright {
-  font-size: 12px;
-}
 /* Footer end */
 
 /* Mobile */
 @media only screen and (max-width: 600px) {
   /* CSS Resets */
-  nav, #home, #about, #skills, #projects, #contact, #footer {
-    padding: 0.5rem 2.5rem;
+  #home, #about, #skills, #projects, #contact, #footer {
+    padding: 0.5rem 3.75rem;
   }
 
   /* Nav Bar */

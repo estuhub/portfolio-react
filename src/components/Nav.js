@@ -18,7 +18,6 @@ const Nav = () => {
                     <li><a href="#skills" className="nav-link" onClick={() => setNavOpen(!navOpen)}>Skills</a></li>
                     <li><a href="#projects" className="nav-link" onClick={() => setNavOpen(!navOpen)}>Projects</a></li>
                     <li><a href="#contact" className="nav-link" onClick={() => setNavOpen(!navOpen)}>Contact</a></li>
-                    <li><a href="./files/CV_EsterLin.pdf" className="nav-link resume" target="_blank">Resume</a></li>
                 </ul>
             </div>
         </nav>
