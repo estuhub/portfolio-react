@@ -41,6 +41,7 @@ a {
 
 a:hover {
   color: var(--secondary-color);
+  transform: translateY(-3px);
 }
 
 body {
@@ -400,7 +401,6 @@ nav a {
   position: fixed;
   left: 1%;
   bottom: 0%;
-  
 }
 
 .footer-list::after {

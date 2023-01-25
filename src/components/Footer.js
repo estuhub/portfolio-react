@@ -11,9 +11,9 @@ class Footer extends React.Component{
             <div className="copyright">© Designed & Built by Ester Lin</div>
             <div>
                 <ul className="footer-list">
-                <a href="https://github.com/estuhub" target="_blank" rel="noreferrer" class="footer-link"><li><FiGithub size={28}/></li></a>
-                <a href="https://www.linkedin.com/in/esterlin/" target="_blank" rel="noreferrer" class="footer-link"><li><RiLinkedinLine size={28}/></li></a>
-                <a href="./files/CV_EsterLin.pdf" target="_blank" rel="noreferrer" class="footer-link"><li><FiDownload size={28}/></li></a>
+                <a href="https://github.com/estuhub" target="_blank" rel="noreferrer" class="footer-link"><li><FiGithub size={24}/></li></a>
+                <a href="https://www.linkedin.com/in/esterlin/" target="_blank" rel="noreferrer" class="footer-link"><li><RiLinkedinLine size={24}/></li></a>
+                <a href="./files/CV_EsterLin.pdf" target="_blank" rel="noreferrer" class="footer-link"><li><FiDownload size={24}/></li></a>
                 </ul>
             </div>
         </footer>
