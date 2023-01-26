@@ -25,9 +25,9 @@ html {
 
 /* CSS Resets */
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 ul {
@@ -35,8 +35,8 @@ ul {
 }
 
 a {
-  text-decoration: none;
   color: var(--primary-color);
+  text-decoration: none;
 }
 
 a:hover {
@@ -58,31 +58,21 @@ h2 {
 
 /* Nav Bar */
 nav {
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1;
+  /* display */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
-  background-color: var(--bg-color);
+  position: sticky;
+  top: 0;
+  left: 0;
   overflow: hidden;
-}
-
-.burguer-bar1, .burguer-bar2, .burguer-bar3 {
-  display: none;
-}
-
-nav {
+  z-index: 1;
+  /* style */
+  background-color: var(--bg-color);
   color: var(--primary-color);
+  padding: 1rem 2rem;
   transition: var(--transition);
-}
-
-nav a:hover {
-  color: var(--secondary-color);
-  border-bottom: 2px solid var(--secondary-color);
+  width: 100%;
 }
 
 .nav-wrap {
@@ -95,10 +85,10 @@ nav ul {
 }
 
 nav a {
-  font-weight: var(--bold-font);
   animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  font-weight: var(--bold-font);
 }
 
 @keyframes fadeInAnimation {
@@ -110,17 +100,23 @@ nav a {
    }
 }
 
+nav a:hover {
+  border-bottom: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
 .burguer-container {
-  display: inline-block;
   cursor: pointer;
+  display: inline-block;
 }
 
 .burguer-bar1, .burguer-bar2, .burguer-bar3 {
-  width: 30px;
-  height: 1px;
   background-color: var(--primary-color);
+  display: none;
+  height: 1px;
   margin: 5px auto;
   transition: 0.4s;
+  width: 30px;
 }
 
 .change.burguer-bar1 {
@@ -155,8 +151,8 @@ nav a {
 }
 
 .bio {
-  padding: 0.625rem;
   text-align: center;
+  padding: 0.625rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -165,30 +161,30 @@ nav a {
 }
 
 .bio-name {
+  font-family: 'Caveat', cursive;
   font-size: 120px;
   margin-bottom: var(--bottom-margin);
-  font-family: 'Caveat', cursive;
 }
 
-.bio p {
+.bio-title {
   line-height: var(--line-height);
   padding-bottom: 1rem;
 }
 
 .bio-text {
-  color: var(--bg-color);
-  padding: 10px;
-  margin: 10px 0;
   border-radius: 5px;
+  color: var(--bg-color);
   font-size: 1rem;
   font-weight: var(--bold-font);
-  transition: var(--transition);
   line-height: var(--line-height);
+  margin: 10px 0;
+  padding: 10px;
+  transition: var(--transition);
 }
 
 .bio-text:hover {
-  color: var(--bg-color);
   background-color: var(--primary-color);
+  color: var(--bg-color);
   cursor: pointer;
 }
 /* Home end*/
@@ -282,8 +278,8 @@ nav a {
 }
 
 .project-container {
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   border-radius: 5px;
   height: 21.875rem;
@@ -325,9 +321,11 @@ nav a {
 
 /* Contact */
 #contact {
+  /* display */
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  /* style */
   gap: 2.5rem;
   margin: auto;
   padding: var(--padding);
@@ -391,16 +389,16 @@ nav a {
   display: grid;
   justify-items: center;
   align-items: center;
-  padding: var(--padding);
   font-size: 12px;
+  padding: var(--padding);
 }
 
 .footer-list {
   display: flex;
   flex-direction: column;
   position: fixed;
-  left: 1%;
   bottom: 0%;
+  left: 1%;
 }
 
 .footer-list::after {
@@ -413,9 +411,9 @@ nav a {
 }
 
 .footer-link {
+  color: var(--primary-shadow);
   display: block;
   padding: 0.5rem;
-  color: var(--primary-shadow);
   transition: background-color 0.1s ease-in-out;
 }
 /* Footer end */
@@ -433,6 +431,12 @@ nav a {
     align-items: flex-start;
   }
 
+  .nav-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
   .burguer-bar1, .burguer-bar2, .burguer-bar3 {
     display: flex;
   }
@@ -440,13 +444,7 @@ nav a {
   .navigation {
     display: none;
   }
-
-  .nav-wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-
+  
   nav ul {
     display: flex;
     flex-direction: column;
