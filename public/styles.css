@@ -70,7 +70,7 @@ nav {
   /* style */
   background-color: var(--bg-color);
   color: var(--primary-color);
-  padding: 1rem 2rem;
+  padding: var(--padding);
   transition: var(--transition);
   width: 100%;
 }
@@ -129,6 +129,24 @@ nav a:hover {
 .change.burguer-bar3 {
   bottom: 2.35em;
   transform: translateY(-6px) rotate(-45deg);
+}
+
+.resume {
+  background-color: var(--primary-color);
+  border: var(--primary-color) 1px solid;
+  border-radius: 5px;
+  color: var(--bg-color);
+  font-size: 1rem;
+  font-weight: var(--bold-font);
+  padding: 10px;
+}
+
+.resume:hover {
+  background-color: var(--bg-color);
+  border: var(--secondary-color) 1px solid;
+  color: var(--secondary-color);
+  font-weight: var(--bold-font);
+  transform: none;
 }
 /* Nav Bar end */
 
@@ -385,9 +403,9 @@ nav a:hover {
 /* Contact end */
 
 /* Footer */
-.copyright {
-  display: grid;
-  justify-items: center;
+#footer {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   font-size: 12px;
   padding: var(--padding);
@@ -395,19 +413,10 @@ nav a:hover {
 
 .footer-list {
   display: flex;
-  flex-direction: column;
-  position: fixed;
-  bottom: 0%;
-  left: 1%;
 }
 
-.footer-list::after {
-  background-color: var(--primary-shadow);
-  content: "";
-  display: block;
-  height: 90px;
-  margin: 0 auto;
-  width: 1px;
+.copyright {
+  padding: 0.5rem;
 }
 
 .footer-link {
@@ -421,7 +430,7 @@ nav a:hover {
 /* Mobile */
 @media only screen and (max-width: 600px) {
   /* CSS Resets */
-  #home, #about, #skills, #projects, #contact, #footer {
+  nav, #home, #about, #skills, #projects, #contact, #footer {
     padding: 0.5rem 3.75rem;
   }
 
